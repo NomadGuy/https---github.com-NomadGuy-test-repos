@@ -1,4 +1,32 @@
-.phrase {
+body {
+    background: linear-gradient(0deg, #e1ff00 29%, #1100ff 99%);
+}
+.phrase, #myButton {
     color: blueviolet;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 30px;
+    margin-left: 220px;
+}
+.block {
+    height: 750px;
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5%;
+    border: 5px inset #2effe7;
+    animation: myAnim 2s ease 0s 1 normal forwards;
+    box-shadow: 5px 5px 16px 3px #000000;
+    background-color: rgba(0, 0, 0, 0.173);
+}
+@keyframes myAnim {
+	0%,
+	50%,
+	100% {
+		opacity: 1;
+	}
+
+	25%,
+	75% {
+		opacity: 0;
+	}
 }
